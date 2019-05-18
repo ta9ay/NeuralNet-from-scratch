@@ -121,8 +121,8 @@ Y = np.array([-1,-1,1,-1,1,1,1,1,-1])
 
 inpnum = X.shape[1]
 hnum = int(input("Enter number of hidden layer neurons: ".strip()))
-lr = float(input("Enter the learning rate: "))
-epochs = int(input("Enter number of epochs: "))
+lr = float(input("Enter the learning rate: ").strip())
+epochs = int(input("Enter number of epochs: ").strip())
 print("Input matrix: \n",X)
 print("Y true values: \n",Y)
 
